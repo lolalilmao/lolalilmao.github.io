@@ -1,0 +1,83 @@
+body {
+    background-color: #f0eef0; /* светло-серый фон /
+    font-family: Arial, sans-serif; / шрифт /
+    color: #222; / цвет текста */
+    }
+    
+    /* Стили для заголовков */
+h1 {
+    color: #3399ff; /* голубой цвет */
+    font-size: 2em;
+}
+    
+    h2 {
+    color: #9933cc; /* пурпурный цвет */
+    font-size: 1.5em;
+    }
+    
+/* Стили для ссылок */
+a {
+    color: #cc3333; /* красный цвет */
+    text-decoration: none; /* убирает подчеркивание */
+}
+
+a:hover {
+    color: #cc6600; /* оранжевый цвет */
+    text-decoration: underline; /* добавляет подчеркивание при наведении */
+}
+    
+/* Стили для кнопок */
+button,
+input[type="submit"] {
+background-color: #cc3333; /* красный цвет фона */
+border: none; /* убирает границу вокруг кнопки */
+color: #fff; /* белый цвет текста */
+cursor: pointer; /* меняет курсор при наведении на кнопку */
+padding: 10px; /* отступы внутри кнопки */
+text-transform: uppercase; /* преобразовывает текст в верхний регистр */
+}
+    
+    button:hover,
+    input[type="submit"]:hover {
+    background-color: #cc6600; /* оранжевый цвет фона при наведении на кнопку */
+    }
+    
+    /* Стили для header */
+    header {
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 24px;
+    padding: 10px;
+    }
+    
+    /* Стили для .content */
+    .content {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    }
+    
+    /* Стили для h1 */
+    h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    }
+    
+    /* Стили для p */
+    p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    }
+    
+    /* Стили для ul */
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* Стили для li */
+    li {
+    margin-bottom: 10px;
+    }
